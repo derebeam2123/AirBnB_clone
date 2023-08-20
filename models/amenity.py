@@ -1,19 +1,13 @@
 #!/usr/bin/python3
-"""
-0x00. AirBnB clone - The console
-Amenity module
-"""
+"""Defines the Amenity class."""
 from models.base_model import BaseModel
 
 
 class Amenity(BaseModel):
-    """
-    Defines attributes/methods for the Amenity class, subclass of BaseModel
-    Other attributes/methods are inherited from BaseModel
+    """Represent an amenity.
+
+    Attributes:
+        name (str): The name of the amenity.
     """
 
     name = ""
-
-    # def __init__(self, *args, **kwargs):
-    #     """initialize variables and methods"""
-    #     super().__init__(self, *args, **kwargs)
